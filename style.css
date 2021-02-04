@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+  background: #252a30;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Anton', sans-serif;
+  color: white;
+}
+
+.egg {
+  width: 200px;
+  height: 260px;
+  background: white;
+  border-radius: 120px 120px 110px 110px / 180px 180px 120px 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.egg-yolk {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-image: linear-gradient(to bottom right, #fea201, #fb9f00, #febf00);
+  text-align: center;
+  line-height: 120px;
+  font-size: 32px;
+ 
+}
+
+.egg-yolk:hover {
+  opacity: .8;
+}
+
+.title {
+  font-size: 48px;
+  border-bottom: 4px solid white;
+  margin-bottom: 50px;
+}
